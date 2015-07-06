@@ -1,4 +1,24 @@
 # [Confitura 2015](http://tech.viacom.com/warsawsdc/confitura2015/)
+
+## Solution
+This is probably simplest and fastests solution to Superdigit problem, written in Java.
+
+## How to build
+
+```
+$ mvn clean install
+```
+
+## How to run
+
+```
+$ java -jar superdigit.jar 6 7 201
+superdigit(6) = 6
+superdigit(7) = 7
+superdigit(2015) = 8
+```
+
+
 ## Superdigit
 
 We define superdigit of an integer x using the following rules:
